@@ -7,7 +7,7 @@ public class Example {
             Browser browser = chromium.launch();
             Page page = browser.newPage();
             page.navigate("https://playwright.dev/java/");
-            // other actions...
+            System.out.println("playwright");
             browser.close();
         }
     }
